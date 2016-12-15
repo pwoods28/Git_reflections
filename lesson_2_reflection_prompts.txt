@@ -1,13 +1,21 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	When you initialize a repository, hidden folders are created which allow git to control the version and history.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+the staging area is an intermediate step before fully committing changes. It allows you to view the changes you are about to make before deciding whether to commit them.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+using git diff --staged to see exactly how many files/how many changes are to be made in the next commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+When you want to try new things without changing the official version.
 
 How do the diagrams help you visualize the branch structure?
 
