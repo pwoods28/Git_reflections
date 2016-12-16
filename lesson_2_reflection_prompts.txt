@@ -22,5 +22,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When two branches are merged together the head is moved to a new join between the two and the files are brought to the same point.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Always doing merging manually can be painful for cases where it is clear-cut. As humans are better at determining the trickier cases than algorithms, it makes sense for git to defer to the user whenever it is not obvious.
